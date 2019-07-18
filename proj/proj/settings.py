@@ -74,6 +74,13 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 CELERY_RESULT_BACKEND = 'django-db'
 CELERY_CACHE_BACKEND = 'django-cache'
 
+EMAIL_HOST = 'smtp.zoho.com'
+EMAIL_HOST_USER = 'alirio1925test@zoho.com'
+EMAIL_HOST_PASSWORD = 'alirio1925test'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
